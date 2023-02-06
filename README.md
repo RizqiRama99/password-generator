@@ -6,5 +6,5 @@ This project is part of solo project in Scrimba javascript course where user can
 
 ##Special thanks to the websites below for providing learning materials for this project.
 -[scrimba](https://scrimba.com/)
--[w3schools(https://www.w3schools.com)
+-[w3schools](https://www.w3schools.com)
 -[MDN WEB DOCS](https://developer.mozilla.org/en-US/)
