@@ -39,7 +39,7 @@ body{
    padding: 2rem 1rem;
    padding-bottom: 0.25rem;
    margin: 0 16px;
-   border-bottom: 1px solid #334660 ;
+  
    
 }
 .heading-section h1{
@@ -60,13 +60,15 @@ body{
     justify-content: space-around;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    align-items: baseline;
+    align-items: center;
+    border-bottom: 1px solid #334660;
 }
 
 #set-value-length{
     border-radius: 0.5em;
     height: 50px;
-    width: 20rem;
+    width: 70%;
+    margin-left: 0px;
     padding: 10px;
     align-items: center;
     border: none;
@@ -81,7 +83,7 @@ input[type = number]:focus {
 
 button{
     background-color: var(--green);
-    margin: 1rem 0;
+    margin: 1rem 0.5rem;
     border: none;
     padding: 1rem 3rem;
     border-radius: 8px;
@@ -110,7 +112,7 @@ button{
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 950px){
     .container{
         height: 100%;
         margin: 5vh;
@@ -118,6 +120,16 @@ button{
     }
     .main-section{
         grid-template-columns: 1fr;
+    }
+    .generate-password{
+        flex-direction: column;
+    }
+    .generate-password button{
+        margin: 1rem 0;
+        width: 80%;
+    }
+    #set-value-length{
+        width: 80%;
     }
 }
 @media (max-width: 412px){
@@ -131,6 +143,6 @@ button{
     }
 
     .generate-password{
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
